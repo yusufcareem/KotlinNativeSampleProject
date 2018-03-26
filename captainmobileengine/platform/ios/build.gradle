@@ -16,20 +16,6 @@ konanArtifacts {
 
         srcDir 'main/src'
     }
-
-    library('test-library') {
-        enableMultiplatform true
-        srcDir 'main-src'
-    }
-
-    program('shared-ios-test') {
-        srcDir 'test'
-        commonSourceSet 'test'
-        extraOpts '-tr'
-        libraries {
-            artifact 'test-library'
-        }
-    }
 }
 
 dependencies {
