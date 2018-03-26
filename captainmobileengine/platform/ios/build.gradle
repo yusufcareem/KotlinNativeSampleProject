@@ -1,0 +1,39 @@
+apply plugin: 'konan'
+
+buildscript {
+    repositories {
+        maven { url "https://dl.bintray.com/jetbrains/kotlin-native-dependencies" }
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-native-gradle-plugin:$kotlin_native_version"
+    }
+}
+
+konanArtifacts {
+    framework('CaptainMobileEngine', targets: ['iphone', 'iphone_sim']) {
+        enableDebug true
+        enableMultiplatform true
+
+        srcDir 'main'
+    }
+
+    library('test-library') {
+        enableMultiplatform true
+        srcDir 'main-src'
+    }
+
+    program('shared-ios-test') {
+        srcDir 'test'
+        commonSourceSet 'test'
+        extraOpts '-tr'
+        libraries {
+            artifact 'test-library'
+        }
+    }
+}
+
+dependencies {
+    expectedBy project(':booking:framework')
+}
+
+task test(dependsOn: run)

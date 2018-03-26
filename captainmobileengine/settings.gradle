@@ -1,0 +1,11 @@
+include ":common", ":hellocrossplatformworld-android", ":booking:framework", "platform"
+
+project(":hellocrossplatformworld-android").projectDir = new File("android/hellocrossplatformworld")
+project(":booking:framework").projectDir = new File("common/booking/framework")
+
+include ":platform-android"
+project(":platform-android").projectDir = new File("platform/android")
+
+include ":platform-ios"
+project(":platform-ios").projectDir = new File("platform/ios")
+

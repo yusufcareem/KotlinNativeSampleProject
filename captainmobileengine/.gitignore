@@ -1,0 +1,10 @@
+build
+ios/nativeLibs.framework
+ios/nativeLibs.kt.bc
+.idea/
+!.idea/checkstyle-idea.xml
+.gradle/*
+.DS_Store
+!/.idea/vcs.xml
+local.properties
+*.iml

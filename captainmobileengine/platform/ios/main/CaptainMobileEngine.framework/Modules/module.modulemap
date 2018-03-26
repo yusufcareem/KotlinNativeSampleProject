@@ -1,0 +1,6 @@
+framework module CaptainMobileEngine {
+    umbrella header "CaptainMobileEngine.h"
+
+    export *
+    module * { export * }
+}

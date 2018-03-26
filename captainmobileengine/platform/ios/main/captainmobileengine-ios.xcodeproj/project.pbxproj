@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881D690020500D920046FDC6 /* CaptainMobileEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881D68FF20500D920046FDC6 /* CaptainMobileEngine.framework */; };
+		881D690220500F510046FDC6 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881D690120500F510046FDC6 /* Test.swift */; };
+		881D6906205015220046FDC6 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881D6905205015220046FDC6 /* RxSwift.framework */; };
+		8832000D20496DEA00E97F7D /* captainmobileengine_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8832000320496DEA00E97F7D /* captainmobileengine_ios.framework */; };
+		8832001220496DEA00E97F7D /* captainmobileengine_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8832001120496DEA00E97F7D /* captainmobileengine_iosTests.swift */; };
+		8832001420496DEA00E97F7D /* captainmobileengine_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 8832000620496DEA00E97F7D /* captainmobileengine_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		885A5BC4205A84C20032AEC5 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 881D6905205015220046FDC6 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		885A5BC5205A84C20032AEC5 /* CaptainMobileEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 881D68FF20500D920046FDC6 /* CaptainMobileEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		88911AAA2049934200B2EC0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88911AA92049934200B2EC0D /* AppDelegate.swift */; };
+		88911AAC2049934200B2EC0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88911AAB2049934200B2EC0D /* ViewController.swift */; };
+		88911AAF2049934200B2EC0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88911AAD2049934200B2EC0D /* Main.storyboard */; };
+		88911AB12049934400B2EC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88911AB02049934400B2EC0D /* Assets.xcassets */; };
+		88911AB42049934400B2EC0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88911AB22049934400B2EC0D /* LaunchScreen.storyboard */; };
+		88911ABF2049934400B2EC0D /* CaptainMobileEngineTestingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88911ABE2049934400B2EC0D /* CaptainMobileEngineTestingAppTests.swift */; };
+		88911ACA2049934400B2EC0D /* CaptainMobileEngineTestingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88911AC92049934400B2EC0D /* CaptainMobileEngineTestingAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8832000E20496DEA00E97F7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8832FFFA20496DEA00E97F7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8832000220496DEA00E97F7D;
+			remoteInfo = "captainmobileengine-ios";
+		};
+		88911ABB2049934400B2EC0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8832FFFA20496DEA00E97F7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88911AA62049934200B2EC0D;
+			remoteInfo = CaptainMobileEngineTestingApp;
+		};
+		88911AC62049934400B2EC0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8832FFFA20496DEA00E97F7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88911AA62049934200B2EC0D;
+			remoteInfo = CaptainMobileEngineTestingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88911ADD204995FC00B2EC0D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				885A5BC4205A84C20032AEC5 /* RxSwift.framework in Embed Frameworks */,
+				885A5BC5205A84C20032AEC5 /* CaptainMobileEngine.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		881D68FF20500D920046FDC6 /* CaptainMobileEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CaptainMobileEngine.framework; path = ../build/konan/bin/iphone_sim/CaptainMobileEngine.framework; sourceTree = "<group>"; };
+		881D690120500F510046FDC6 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		881D6905205015220046FDC6 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		8832000320496DEA00E97F7D /* captainmobileengine_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = captainmobileengine_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8832000620496DEA00E97F7D /* captainmobileengine_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = captainmobileengine_ios.h; sourceTree = "<group>"; };
+		8832000720496DEA00E97F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8832000C20496DEA00E97F7D /* captainmobileengine-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "captainmobileengine-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8832001120496DEA00E97F7D /* captainmobileengine_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = captainmobileengine_iosTests.swift; sourceTree = "<group>"; };
+		8832001320496DEA00E97F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88911AA72049934200B2EC0D /* CaptainMobileEngineTestingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptainMobileEngineTestingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88911AA92049934200B2EC0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88911AAB2049934200B2EC0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88911AAE2049934200B2EC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88911AB02049934400B2EC0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88911AB32049934400B2EC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88911AB52049934400B2EC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88911ABA2049934400B2EC0D /* CaptainMobileEngineTestingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptainMobileEngineTestingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88911ABE2049934400B2EC0D /* CaptainMobileEngineTestingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptainMobileEngineTestingAppTests.swift; sourceTree = "<group>"; };
+		88911AC02049934400B2EC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88911AC52049934400B2EC0D /* CaptainMobileEngineTestingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptainMobileEngineTestingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88911AC92049934400B2EC0D /* CaptainMobileEngineTestingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptainMobileEngineTestingAppUITests.swift; sourceTree = "<group>"; };
+		88911ACB2049934400B2EC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8832000920496DEA00E97F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8832000D20496DEA00E97F7D /* captainmobileengine_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8832FFFF20496DEA00E97F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881D690020500D920046FDC6 /* CaptainMobileEngine.framework in Frameworks */,
+				881D6906205015220046FDC6 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88911AA42049934200B2EC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88911AB72049934400B2EC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88911AC22049934400B2EC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8832000420496DEA00E97F7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8832000320496DEA00E97F7D /* captainmobileengine_ios.framework */,
+				8832000C20496DEA00E97F7D /* captainmobileengine-iosTests.xctest */,
+				88911AA72049934200B2EC0D /* CaptainMobileEngineTestingApp.app */,
+				88911ABA2049934400B2EC0D /* CaptainMobileEngineTestingAppTests.xctest */,
+				88911AC52049934400B2EC0D /* CaptainMobileEngineTestingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8832000520496DEA00E97F7D /* captainmobileengine-ios */ = {
+			isa = PBXGroup;
+			children = (
+				8832000620496DEA00E97F7D /* captainmobileengine_ios.h */,
+				8832000720496DEA00E97F7D /* Info.plist */,
+				881D690120500F510046FDC6 /* Test.swift */,
+			);
+			path = "captainmobileengine-ios";
+			sourceTree = "<group>";
+		};
+		8832001020496DEA00E97F7D /* captainmobileengine-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				8832001120496DEA00E97F7D /* captainmobileengine_iosTests.swift */,
+				8832001320496DEA00E97F7D /* Info.plist */,
+			);
+			path = "captainmobileengine-iosTests";
+			sourceTree = "<group>";
+		};
+		8832002120498D2D00E97F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				881D6905205015220046FDC6 /* RxSwift.framework */,
+				881D68FF20500D920046FDC6 /* CaptainMobileEngine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8832FFF920496DEA00E97F7D = {
+			isa = PBXGroup;
+			children = (
+				8832000520496DEA00E97F7D /* captainmobileengine-ios */,
+				8832001020496DEA00E97F7D /* captainmobileengine-iosTests */,
+				88911AA82049934200B2EC0D /* CaptainMobileEngineTestingApp */,
+				88911ABD2049934400B2EC0D /* CaptainMobileEngineTestingAppTests */,
+				88911AC82049934400B2EC0D /* CaptainMobileEngineTestingAppUITests */,
+				8832000420496DEA00E97F7D /* Products */,
+				8832002120498D2D00E97F7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88911AA82049934200B2EC0D /* CaptainMobileEngineTestingApp */ = {
+			isa = PBXGroup;
+			children = (
+				88911AA92049934200B2EC0D /* AppDelegate.swift */,
+				88911AAB2049934200B2EC0D /* ViewController.swift */,
+				88911AAD2049934200B2EC0D /* Main.storyboard */,
+				88911AB02049934400B2EC0D /* Assets.xcassets */,
+				88911AB22049934400B2EC0D /* LaunchScreen.storyboard */,
+				88911AB52049934400B2EC0D /* Info.plist */,
+			);
+			path = CaptainMobileEngineTestingApp;
+			sourceTree = "<group>";
+		};
+		88911ABD2049934400B2EC0D /* CaptainMobileEngineTestingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				88911ABE2049934400B2EC0D /* CaptainMobileEngineTestingAppTests.swift */,
+				88911AC02049934400B2EC0D /* Info.plist */,
+			);
+			path = CaptainMobileEngineTestingAppTests;
+			sourceTree = "<group>";
+		};
+		88911AC82049934400B2EC0D /* CaptainMobileEngineTestingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88911AC92049934400B2EC0D /* CaptainMobileEngineTestingAppUITests.swift */,
+				88911ACB2049934400B2EC0D /* Info.plist */,
+			);
+			path = CaptainMobileEngineTestingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8832000020496DEA00E97F7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8832001420496DEA00E97F7D /* captainmobileengine_ios.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8832000220496DEA00E97F7D /* captainmobileengine-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8832001720496DEA00E97F7D /* Build configuration list for PBXNativeTarget "captainmobileengine-ios" */;
+			buildPhases = (
+				8832001D2049877D00E97F7D /* [KN] Compile Kotlin Native to iOS framework */,
+				8832FFFE20496DEA00E97F7D /* Sources */,
+				8832FFFF20496DEA00E97F7D /* Frameworks */,
+				8832000020496DEA00E97F7D /* Headers */,
+				8832000120496DEA00E97F7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "captainmobileengine-ios";
+			productName = "captainmobileengine-ios";
+			productReference = 8832000320496DEA00E97F7D /* captainmobileengine_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8832000B20496DEA00E97F7D /* captainmobileengine-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8832001A20496DEA00E97F7D /* Build configuration list for PBXNativeTarget "captainmobileengine-iosTests" */;
+			buildPhases = (
+				8832000820496DEA00E97F7D /* Sources */,
+				8832000920496DEA00E97F7D /* Frameworks */,
+				8832000A20496DEA00E97F7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8832000F20496DEA00E97F7D /* PBXTargetDependency */,
+			);
+			name = "captainmobileengine-iosTests";
+			productName = "captainmobileengine-iosTests";
+			productReference = 8832000C20496DEA00E97F7D /* captainmobileengine-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88911AA62049934200B2EC0D /* CaptainMobileEngineTestingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88911ACC2049934400B2EC0D /* Build configuration list for PBXNativeTarget "CaptainMobileEngineTestingApp" */;
+			buildPhases = (
+				88911AA32049934200B2EC0D /* Sources */,
+				88911AA42049934200B2EC0D /* Frameworks */,
+				88911AA52049934200B2EC0D /* Resources */,
+				88911ADD204995FC00B2EC0D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaptainMobileEngineTestingApp;
+			productName = CaptainMobileEngineTestingApp;
+			productReference = 88911AA72049934200B2EC0D /* CaptainMobileEngineTestingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88911AB92049934400B2EC0D /* CaptainMobileEngineTestingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88911ACF2049934400B2EC0D /* Build configuration list for PBXNativeTarget "CaptainMobileEngineTestingAppTests" */;
+			buildPhases = (
+				88911AB62049934400B2EC0D /* Sources */,
+				88911AB72049934400B2EC0D /* Frameworks */,
+				88911AB82049934400B2EC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88911ABC2049934400B2EC0D /* PBXTargetDependency */,
+			);
+			name = CaptainMobileEngineTestingAppTests;
+			productName = CaptainMobileEngineTestingAppTests;
+			productReference = 88911ABA2049934400B2EC0D /* CaptainMobileEngineTestingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88911AC42049934400B2EC0D /* CaptainMobileEngineTestingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88911AD22049934400B2EC0D /* Build configuration list for PBXNativeTarget "CaptainMobileEngineTestingAppUITests" */;
+			buildPhases = (
+				88911AC12049934400B2EC0D /* Sources */,
+				88911AC22049934400B2EC0D /* Frameworks */,
+				88911AC32049934400B2EC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88911AC72049934400B2EC0D /* PBXTargetDependency */,
+			);
+			name = CaptainMobileEngineTestingAppUITests;
+			productName = CaptainMobileEngineTestingAppUITests;
+			productReference = 88911AC52049934400B2EC0D /* CaptainMobileEngineTestingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8832FFFA20496DEA00E97F7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Andres Portillo";
+				TargetAttributes = {
+					8832000220496DEA00E97F7D = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					8832000B20496DEA00E97F7D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					88911AA62049934200B2EC0D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					88911AB92049934400B2EC0D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 88911AA62049934200B2EC0D;
+					};
+					88911AC42049934400B2EC0D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 88911AA62049934200B2EC0D;
+					};
+				};
+			};
+			buildConfigurationList = 8832FFFD20496DEA00E97F7D /* Build configuration list for PBXProject "captainmobileengine-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8832FFF920496DEA00E97F7D;
+			productRefGroup = 8832000420496DEA00E97F7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8832000220496DEA00E97F7D /* captainmobileengine-ios */,
+				8832000B20496DEA00E97F7D /* captainmobileengine-iosTests */,
+				88911AA62049934200B2EC0D /* CaptainMobileEngineTestingApp */,
+				88911AB92049934400B2EC0D /* CaptainMobileEngineTestingAppTests */,
+				88911AC42049934400B2EC0D /* CaptainMobileEngineTestingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8832000120496DEA00E97F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8832000A20496DEA00E97F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88911AA52049934200B2EC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88911AB42049934400B2EC0D /* LaunchScreen.storyboard in Resources */,
+				88911AB12049934400B2EC0D /* Assets.xcassets in Resources */,
+				88911AAF2049934200B2EC0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88911AB82049934400B2EC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88911AC32049934400B2EC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8832001D2049877D00E97F7D /* [KN] Compile Kotlin Native to iOS framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[KN] Compile Kotlin Native to iOS framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "case \"$PLATFORM_NAME\" in\niphoneos)\nNAME=iphone\n;;\niphonesimulator)\nNAME=iphone_sim\n;;\n*)\necho \"Unknown platform: $PLATFORN_NAME\"\nexit 1\n;;\nesac\n\"$SRCROOT/../../../gradlew\" -p \"$SRCROOT/..\" \"build\"\ncp -a \"$SRCROOT/../build/konan/bin/$NAME/\" \"$SRCROOT/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8832000820496DEA00E97F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8832001220496DEA00E97F7D /* captainmobileengine_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8832FFFE20496DEA00E97F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881D690220500F510046FDC6 /* Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88911AA32049934200B2EC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88911AAC2049934200B2EC0D /* ViewController.swift in Sources */,
+				88911AAA2049934200B2EC0D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88911AB62049934400B2EC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88911ABF2049934400B2EC0D /* CaptainMobileEngineTestingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88911AC12049934400B2EC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88911ACA2049934400B2EC0D /* CaptainMobileEngineTestingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8832000F20496DEA00E97F7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8832000220496DEA00E97F7D /* captainmobileengine-ios */;
+			targetProxy = 8832000E20496DEA00E97F7D /* PBXContainerItemProxy */;
+		};
+		88911ABC2049934400B2EC0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88911AA62049934200B2EC0D /* CaptainMobileEngineTestingApp */;
+			targetProxy = 88911ABB2049934400B2EC0D /* PBXContainerItemProxy */;
+		};
+		88911AC72049934400B2EC0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88911AA62049934200B2EC0D /* CaptainMobileEngineTestingApp */;
+			targetProxy = 88911AC62049934400B2EC0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88911AAD2049934200B2EC0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88911AAE2049934200B2EC0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88911AB22049934400B2EC0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88911AB32049934400B2EC0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8832001520496DEA00E97F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8832001620496DEA00E97F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8832001820496DEA00E97F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 975NG24MED;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "captainmobileengine-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.careem.captainmobileengine-ios";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8832001920496DEA00E97F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 975NG24MED;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "captainmobileengine-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.careem.captainmobileengine-ios";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8832001B20496DEA00E97F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975NG24MED;
+				INFOPLIST_FILE = "captainmobileengine-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andresportillo.captainmobileengine-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8832001C20496DEA00E97F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975NG24MED;
+				INFOPLIST_FILE = "captainmobileengine-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andresportillo.captainmobileengine-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88911ACD2049934400B2EC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975NG24MED;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = CaptainMobileEngineTestingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careem.CaptainMobileEngineTestingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88911ACE2049934400B2EC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975NG24MED;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = CaptainMobileEngineTestingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careem.CaptainMobileEngineTestingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88911AD02049934400B2EC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975NG24MED;
+				INFOPLIST_FILE = CaptainMobileEngineTestingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careem.CaptainMobileEngineTestingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaptainMobileEngineTestingApp.app/CaptainMobileEngineTestingApp";
+			};
+			name = Debug;
+		};
+		88911AD12049934400B2EC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975NG24MED;
+				INFOPLIST_FILE = CaptainMobileEngineTestingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careem.CaptainMobileEngineTestingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaptainMobileEngineTestingApp.app/CaptainMobileEngineTestingApp";
+			};
+			name = Release;
+		};
+		88911AD32049934400B2EC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975NG24MED;
+				INFOPLIST_FILE = CaptainMobileEngineTestingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careem.CaptainMobileEngineTestingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaptainMobileEngineTestingApp;
+			};
+			name = Debug;
+		};
+		88911AD42049934400B2EC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 975NG24MED;
+				INFOPLIST_FILE = CaptainMobileEngineTestingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careem.CaptainMobileEngineTestingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaptainMobileEngineTestingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8832001720496DEA00E97F7D /* Build configuration list for PBXNativeTarget "captainmobileengine-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8832001820496DEA00E97F7D /* Debug */,
+				8832001920496DEA00E97F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8832001A20496DEA00E97F7D /* Build configuration list for PBXNativeTarget "captainmobileengine-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8832001B20496DEA00E97F7D /* Debug */,
+				8832001C20496DEA00E97F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8832FFFD20496DEA00E97F7D /* Build configuration list for PBXProject "captainmobileengine-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8832001520496DEA00E97F7D /* Debug */,
+				8832001620496DEA00E97F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88911ACC2049934400B2EC0D /* Build configuration list for PBXNativeTarget "CaptainMobileEngineTestingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88911ACD2049934400B2EC0D /* Debug */,
+				88911ACE2049934400B2EC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88911ACF2049934400B2EC0D /* Build configuration list for PBXNativeTarget "CaptainMobileEngineTestingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88911AD02049934400B2EC0D /* Debug */,
+				88911AD12049934400B2EC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88911AD22049934400B2EC0D /* Build configuration list for PBXNativeTarget "CaptainMobileEngineTestingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88911AD32049934400B2EC0D /* Debug */,
+				88911AD42049934400B2EC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8832FFFA20496DEA00E97F7D /* Project object */;
+}
