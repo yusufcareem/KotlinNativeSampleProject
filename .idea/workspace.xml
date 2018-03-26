@@ -6,38 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="025bf8d3-9be8-4f49-8f96-9d58fda9b77d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/tests/com/careem/adma/booking/framework/reducers/BookingCancellationAcknowledgementReducerTest.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/tests/com/careem/adma/booking/framework/reducers/BookingCancellationReducerTest.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/tests/com/careem/adma/booking/framework/reducers/BookingValidatorReducerTest.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/tests/com/careem/adma/booking/framework/reducers/BootstrapReducerTest.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/tests/com/careem/adma/booking/framework/reducers/NotifyBookingCancelledReducerTest.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/tests/com/careem/adma/booking/framework/reducers/ReducerTestUtils.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/captainmobileengine/platform/android/main/com/careem/platform/android/Platform.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/captainmobileengine/platform/ios/main/src/Date.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/build.gradle" afterPath="$PROJECT_DIR$/captainmobileengine/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/build.gradle" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/action/BookingCancellationAcknowledgeAction.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/action/BookingCancellationAcknowledgeAction.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/action/BookingStateAction.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/action/BookingStateAction.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/action/DeleteBookingCommandAction.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/action/DeleteBookingCommandAction.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/action/NotifyBookingCancelledAction.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/action/NotifyBookingCancelledAction.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/command/DebugUpdateStatusToArrivedForPickupCommand.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/command/DebugUpdateStatusToArrivedForPickupCommand.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/command/DebugUpdateStatusToOnMyWayCommand.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/command/DebugUpdateStatusToOnMyWayCommand.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/command/DebugUpdateStatusToTripEndedCommand.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/command/DebugUpdateStatusToTripEndedCommand.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/command/DebugUpdateStatusToTripStartedCommand.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/command/DebugUpdateStatusToTripStartedCommand.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/expects/Date.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/expects/Date.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/expects/System.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/expects/System.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/models/Booking.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/models/Booking.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/models/Route.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/models/Route.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/BookingCancellationAcknowledgementReducer.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/BookingCancellationAcknowledgementReducer.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/BookingCancellationReducer.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/BookingCancellationReducer.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/BootstrapReducer.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/BootstrapReducer.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/NotifyBookingCancelledReducer.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/NotifyBookingCancelledReducer.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/OnBookingAddedReducer.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/OnBookingAddedReducer.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/OnMyWayReducer.kt" afterPath="$PROJECT_DIR$/captainmobileengine/common/booking/framework/src/main/kotlin/com/careem/adma/booking/framework/reducers/OnMyWayReducer.kt" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/platform/android/build.gradle" afterPath="$PROJECT_DIR$/captainmobileengine/platform/android/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/captainmobileengine/platform/ios/build.gradle" afterPath="$PROJECT_DIR$/captainmobileengine/platform/ios/build.gradle" />
-    </list>
+    <list default="true" id="025bf8d3-9be8-4f49-8f96-9d58fda9b77d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +15,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/captainmobileengine/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Date.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/captainmobileengine/platform/ios/main/src/Date.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/captainmobileengine/common/booking/framework/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -57,14 +46,52 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/captainmobileengine/platform/android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/captainmobileengine/platform/ios/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Platform.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/captainmobileengine/platform/android/main/com/careem/platform/android/Platform.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/captainmobileengine" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/captainmobileengine/platform/ios/main/src/Date.kt" />
+        <option value="$PROJECT_DIR$/captainmobileengine/platform/ios/build.gradle" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -89,10 +116,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,10 +136,128 @@
               <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
               <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="careem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="careem" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="careem" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sample Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample Project" type="462c0819:PsiDirectoryNode" />
+              <item name="captainmobileengine" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,22 +379,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="151" y="57" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -273,6 +418,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captainmobileengine/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captainmobileengine/platform/android/main/com/careem/platform/android/Platform.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captainmobileengine/platform/ios/main/src/Date.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captainmobileengine/common/booking/framework/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captainmobileengine/platform/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captainmobileengine/platform/ios/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding />
         </state>
       </provider>

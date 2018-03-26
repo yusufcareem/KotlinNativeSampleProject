@@ -14,7 +14,7 @@ konanArtifacts {
         enableDebug true
         enableMultiplatform true
 
-        srcDir 'main'
+        srcDir 'main/src'
     }
 
     library('test-library') {

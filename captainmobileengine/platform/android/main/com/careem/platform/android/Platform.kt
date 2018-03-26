@@ -1,6 +1,6 @@
-package com.careem.platform.android
+package com.careem.adma.booking.framework.Date
 
-actual class Platform(url: String) {
+actual class Platform actual constructor(url: String) {
     actual fun get():String {
         return "test"
     }
